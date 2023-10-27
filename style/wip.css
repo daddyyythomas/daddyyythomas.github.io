@@ -134,3 +134,26 @@ table, th, td, caption {
     background-color: var(--tbuttonsel);
     border-collapse: collapse;
 }
+@media screen and (max-width: 960px) {
+    .main-area-header {
+        height: 10%;
+    }
+    .main-area {
+        padding-bottom: 80%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .main-area {
+        padding-bottom: 45%;
+    }
+}
+@media screen and (width: 390px) and (height: 844px) {
+    .main-area {
+        padding-bottom: 70%;
+    }
+}
+@media screen and (width: 393px) and (height: 851px) {
+    .main-area {
+        padding-bottom: 70%;
+    }
+}

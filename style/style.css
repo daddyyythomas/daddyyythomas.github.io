@@ -294,3 +294,32 @@ a:active {
 .logo:hover {
     transform: scale(1.03);
 }
+@media screen and (max-width: 960px) {
+    .main-area-header {
+        height: 7%;
+    }
+    .sidebar-button {
+        height: 7%;
+    }
+    .main-area-content-box {
+        padding-bottom: 80%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .sidebar-button {
+        height: 13%;
+    }
+    .main-area-content-box {
+        padding-bottom: 40%;
+    }
+}
+@media screen and (width: 390px) and (height: 844px) {
+    .main-area-content-box {
+        padding-bottom: 65%;
+    }
+}
+@media screen and (width: 393px) and (height: 851px) {
+    .main-area-content-box {
+        padding-bottom: 70%;
+    }
+}
